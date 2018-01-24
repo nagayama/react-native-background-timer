@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6419269B1ECB4266009CF731 /* RNBackgroundTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBackgroundTimer.m */; };
-		B3E7B58A1CC2AC0600A0062D /* RNBackgroundTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBackgroundTimer.m */; };
+		97389D162018C143005C8287 /* RNBackgroundTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97389D142018C143005C8287 /* RNBackgroundTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,8 +34,8 @@
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNBackgroundTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBackgroundTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		641926921ECB4257009CF731 /* libRNBackgroundTimer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBackgroundTimer.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E7B5881CC2AC0600A0062D /* RNBackgroundTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBackgroundTimer.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* RNBackgroundTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBackgroundTimer.m; sourceTree = "<group>"; };
+		97389D142018C143005C8287 /* RNBackgroundTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNBackgroundTimer.m; path = RNBackgroundTimer/RNBackgroundTimer.m; sourceTree = "<group>"; };
+		97389D152018C143005C8287 /* RNBackgroundTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RNBackgroundTimer.h; path = RNBackgroundTimer/RNBackgroundTimer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +67,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				B3E7B5881CC2AC0600A0062D /* RNBackgroundTimer.h */,
-				B3E7B5891CC2AC0600A0062D /* RNBackgroundTimer.m */,
+				97389D152018C143005C8287 /* RNBackgroundTimer.h */,
+				97389D142018C143005C8287 /* RNBackgroundTimer.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				641926921ECB4257009CF731 /* libRNBackgroundTimer.a */,
 			);
@@ -153,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E7B58A1CC2AC0600A0062D /* RNBackgroundTimer.m in Sources */,
+				97389D162018C143005C8287 /* RNBackgroundTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +160,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6419269B1ECB4266009CF731 /* RNBackgroundTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +338,7 @@
 				641926991ECB4257009CF731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

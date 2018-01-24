@@ -17,6 +17,8 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
 
   s.preserve_paths = 'README.md', 'package.json', 'index.js'
-  s.source_files   = 'ios/*.{h,m}'
+  s.source_files   = 'RNBackgroundTimer/*.{h,m}'
+
+  s.dependency 'React'
 
 end
